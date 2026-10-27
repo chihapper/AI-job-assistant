@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# app data (embedded database, uploaded files)
+/data/
+
+# keep the template in git; real env files stay ignored
+!.env.example
